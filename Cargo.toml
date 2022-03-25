@@ -4,6 +4,11 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Artem Borisovskiy <bytefu@gmail.com>"]
 description = "A very basic Rust script runner aimed at near zero launch latency"
+repository = "https://github.com/burjui/papyrust"
+license = "Apache-2.0"
+license-file = "LICENSE"
+keywords = ["scripting"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 anyhow = "1.0.56"
