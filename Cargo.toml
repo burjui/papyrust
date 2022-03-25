@@ -1,0 +1,10 @@
+[package]
+name = "papyrust"
+version = "0.1.0"
+edition = "2021"
+authors = ["Artem Borisovskiy <bytefu@gmail.com>"]
+description = "A very basic Rust script runner aimed at near zero launch latency"
+
+[dependencies]
+anyhow = "1.0.56"
+walkdir = "2.3.2"
