@@ -13,7 +13,7 @@ How to use:
 - In the project directory create a shell script named `x.pp` with Papyrust shebang and make it executable:
   ```sh
   cd x
-  echo "#\!/usr/bin/env papyrust > x.pp'
+  echo '#!/usr/bin/env papyrust' > x.pp
   chmod +x x.pp
   ```
 
